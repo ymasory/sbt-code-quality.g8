@@ -18,11 +18,13 @@ $ sbt
 - Check out `target/pmd-report.html`.
 
 ## Customize ##
-Change the CLI args (`val args`) in `PmdSettings` and `CheckStyleSettings` in
+
+- Change the CLI args (`val args`) in `CheckStyleSettings` and `PmdSettings` in
 `project/build.scala` in the generated projects.
 See the [CheckStyle CLI](http://checkstyle.sourceforge.net/cmdline.html)
 documentation and the [PMD CLI](http://pmd.sourceforge.net/running.html)
 documentation.
+- Tweak or replace `project/checkstyle-config.xml` and `project/pmd-ruleset.xml` in the generated project with something appropriate for your requirements.
 
 ## Why not make an sbt plugin? ##
 
