@@ -17,11 +17,20 @@ $ sbt
 - Check out `target/checkstyle-report.xml`.
 - Check out `target/pmd-report.html`.
 
+## Customize ##
+Change the CLI args (`val args`) in `PmdSettings` and `CheckStyleSettings` in
+`project/build.scala` in the generated projects.
+See the [CheckStyle CLI](http://checkstyle.sourceforge.net/cmdline.html)
+documentation and the [PMD CLI](http://pmd.sourceforge.net/running.html)
+documentation.
+
 ## Why not make an sbt plugin? ##
 
 - Why should I?
 Most code quality toold have a fully function CLI interface.
-An sbt plugin would amount to a ton of boilerplate that replicates the CLI functionality.
+An sbt plugin would amount to a ton of boilerplate that replicates the CLI
+functionality.
 - sbt versions are not binary compatible between versions.
 They haven't even been source compatible to date.
 This way is easier.
+- This same strategy can be used to quickly spit out new CLI-based tasks.
