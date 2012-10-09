@@ -24,7 +24,7 @@ $ sbt
 See the [CheckStyle CLI](http://checkstyle.sourceforge.net/cmdline.html)
 documentation and the [PMD CLI](http://pmd.sourceforge.net/running.html)
 documentation.
-- Tweak or replace `project/checkstyle-config.xml` and `project/pmd-ruleset.xml` in the generated project with something appropriate for your requirements.
+- Tweak or replace `project/checkstyle-config.xml` and `project/pmd-ruleset.xml` in the generated project with something appropriate for your requirements. See the [CheckStyle](http://checkstyle.sourceforge.net/config.html) and [PMD](http://pmd.sourceforge.net/howtomakearuleset.html) XML configuration docs.
 
 ## Why not make an sbt plugin? ##
 
