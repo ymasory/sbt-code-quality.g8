@@ -22,7 +22,6 @@ $ sbt
 - Why should I?
 Most code quality toold have a fully function CLI interface.
 An sbt plugin would amount to a ton of boilerplate that replicates the CLI functionality.
-
 - sbt versions are not binary compatible between versions.
 They haven't even been source compatible to date.
 This way is easier.
