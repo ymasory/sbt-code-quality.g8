@@ -29,10 +29,10 @@ documentation.
 ## Why not make an sbt plugin? ##
 
 - Why should I?
-Most code quality toold have a fully function CLI interface.
+Most code quality toold have a fully functional CLI interface.
 An sbt plugin would amount to a ton of boilerplate that replicates the CLI
 functionality.
-- sbt versions are not binary compatible between versions.
-They haven't even been source compatible to date.
+- sbt is not binary compatible between versions.
+It hasn't even been source compatible to date.
 This way is easier.
 - This same strategy can be used to quickly spit out new CLI-based tasks.
