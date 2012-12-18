@@ -1,5 +1,7 @@
 # sbt-code-quality: or, how to use PMD and CheckStyle with sbt #
 
+[![Build Status](http://ci.yuvimasory.com/job/sbt-code-quality/badge/icon)](http://ci.yuvimasory.com/job/sbt-code-quality/)
+
 ## Usage ##
 
 - Install [giter8](https://github.com/n8han/giter8).
