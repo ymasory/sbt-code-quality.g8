@@ -11,7 +11,8 @@
 $ cd
 $ g8 ymasory/sbt-code-quality
 $ cd <app name>
-$ sbt
+$ chmod u+x sbt
+$ ./sbt
 > checkstyle
 > pmd
 ```
